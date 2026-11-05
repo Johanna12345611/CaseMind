@@ -1,0 +1,104 @@
+{
+  "cases": [
+    {
+      "id": "case001",
+      "title": "The Midnight Mystery",
+      "location": "Blackwood Mansion",
+      "description": "A wealthy businessman named Richard Blackwood was found unconscious in his study at 10 PM. Three people were present in the mansion that evening. Your task is to discover who attacked him.",
+      "victim": "Richard Blackwood",
+      "time": "10:00 PM",
+      "suspects": [
+        {
+          "name": "Sarah Mitchell",
+          "role": "Personal Assistant",
+          "statement": "I was in the kitchen preparing tea. I never entered the study.",
+          "alibi": "Claims she was in the kitchen.",
+          "motive": "Richard planned to dismiss her."
+        },
+        {
+          "name": "James Carter",
+          "role": "Business Partner",
+          "statement": "I was in the library reading documents. I heard nothing unusual.",
+          "alibi": "Claims he was in the library.",
+          "motive": "Richard had discovered financial irregularities in their business."
+        },
+        {
+          "name": "Daniel Brooks",
+          "role": "Security Guard",
+          "statement": "I was monitoring the security cameras near the main entrance.",
+          "alibi": "Claims he was near the main entrance.",
+          "motive": "Richard had recently reduced his salary."
+        }
+      ],
+      "clues": [
+        {
+          "name": "The Broken Watch",
+          "description": "A broken wristwatch was discovered near the study door. It stopped at 9:45 PM.",
+          "keywords": ["watch", "broken", "wristwatch", "9:45"]
+        },
+        {
+          "name": "The Missing Documents",
+          "description": "Important financial documents were missing from Richard's desk.",
+          "keywords": ["documents", "papers", "financial", "missing", "desk"]
+        },
+        {
+          "name": "The Security Footage",
+          "description": "The security cameras show that James entered the study at 9:40 PM.",
+          "keywords": ["camera", "footage", "security", "recording", "video"]
+        }
+      ],
+      "solution": "James Carter",
+      "explanation": "James had a financial motive. The security footage places him inside the study shortly before the incident, contradicting his claim that he remained in the library."
+    },
+    {
+      "id": "case002",
+      "title": "The Vanishing Diamond",
+      "location": "Rosewood Hotel",
+      "description": "A rare diamond disappeared from a locked hotel display room during a private event. Three people had access to the area.",
+      "victim": "Rosewood Hotel",
+      "time": "8:30 PM",
+      "suspects": [
+        {
+          "name": "Olivia Parker",
+          "role": "Event Manager",
+          "statement": "I was coordinating guests in the ballroom.",
+          "alibi": "Claims she was in the ballroom.",
+          "motive": "She was facing financial difficulties."
+        },
+        {
+          "name": "Ethan Cole",
+          "role": "Hotel Technician",
+          "statement": "I was repairing the lighting system on the second floor.",
+          "alibi": "Claims he was repairing the lights.",
+          "motive": "He had access to the display room's electronic lock."
+        },
+        {
+          "name": "Mia Thompson",
+          "role": "Guest",
+          "statement": "I was taking photographs near the entrance.",
+          "alibi": "Claims she was near the entrance.",
+          "motive": "She had previously expressed interest in buying the diamond."
+        }
+      ],
+      "clues": [
+        {
+          "name": "The Access Log",
+          "description": "The electronic lock recorded Ethan's access card at the display room at 8:20 PM.",
+          "keywords": ["access", "card", "lock", "log", "electronic"]
+        },
+        {
+          "name": "The Broken Light",
+          "description": "The display room lights were deliberately switched off shortly before the diamond disappeared.",
+          "keywords": ["light", "lights", "dark", "lighting", "electricity"]
+        },
+        {
+          "name": "The Maintenance Kit",
+          "description": "A maintenance kit belonging to Ethan was discovered beside the display room.",
+          "keywords": ["kit", "tools", "maintenance", "equipment"]
+        }
+      ],
+      "solution": "Ethan Cole",
+      "explanation": "Ethan had access to the electronic lock, his access card was recorded near the time of the disappearance, and his maintenance kit was found nearby."
+    }
+  ]
+}
